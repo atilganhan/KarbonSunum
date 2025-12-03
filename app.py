@@ -11,7 +11,7 @@ st.markdown(
     """
     <style>
     .footer {
-        position: fixed; left: 0; bottom: 60px; width: 100%;
+        position: fixed; left: 0; bottom: 40px; width: 100%;
         background-color: transparent; color: #333;
         text-align: right; padding-right: 20px; padding-bottom: 10px;
         font-size: 16px; font-weight: bold; z-index: 100;
@@ -137,3 +137,4 @@ if toplam_aylik > 0:
 else:
 
     st.warning("Grafikleri görmek için soldan veri girişi yapınız.")
+
