@@ -11,7 +11,7 @@ st.markdown(
     """
     <style>
     .footer {
-        position: fixed; left: 0; bottom: 0; width: 100%;
+        position: fixed; left: 0; bottom: 60px; width: 100%;
         background-color: transparent; color: #333;
         text-align: right; padding-right: 20px; padding-bottom: 10px;
         font-size: 16px; font-weight: bold; z-index: 100;
@@ -135,4 +135,5 @@ if toplam_aylik > 0:
         fig_pie = px.pie(df_pie, values='Toplam CO2 (kg)', names='Kategori', hole=0.4)
         st.plotly_chart(fig_pie, use_container_width=True)
 else:
+
     st.warning("Grafikleri görmek için soldan veri girişi yapınız.")
